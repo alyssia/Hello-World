@@ -1,0 +1,29 @@
+## 
+#
+#deb cdrom:[Debian GNU/Linux 7.0 _Kali_ - Official Snapshot amd64 LIVE/INSTALL Binary 20140822-15:33]/ kali contrib main non-free
+#
+#deb http://http.kali.org/kali kali main non-free contrib
+#deb-src http://http.kali.org/kali kali main non-free contrib
+#
+### Security updates
+#deb http://security.kali.org/kali-security kali/updates main contrib non-free
+#
+deb http://mirrors.ustc.edu.cn/kali stable main contrib 
+deb-src http://mirrors.ustc.edu.cn/kali stable main contrib
+##
+##deb http://ftp.cn.debian.org/debian sid main contrib 
+#
+#deb http://mirrors.163.com/debian wheezy main contrib
+#
+deb http://mozilla.debian.net/ wheezy-backports iceweasel-release
+
+##deb file:/media/cdrom1/ wheezy main contrib
+##deb file:/media/cdrom2/ wheezy main contrib
+##deb file:/media/cdrom3/ wheezy main contrib
+##deb file:/media/cdrom4/ wheezy main contrib
+##deb file:/media/cdrom5/ wheezy main contrib
+##deb file:/media/cdrom6/ wheezy main contrib
+##deb file:/media/cdrom7/ wheezy main contrib
+##deb file:/media/cdrom8/ wheezy main contrib
+##deb file:/media/cdrom9/ wheezy main contrib
+##deb file:/media/cdrom10/ wheezy main contrib
