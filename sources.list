@@ -10,3 +10,11 @@ deb http://mirrors.ustc.edu.cn/kali stable main contrib
 deb-src http://mirrors.ustc.edu.cn/kali stable main contrib
 
 deb http://mozilla.debian.net/ wheezy-backports iceweasel-release
+
+##apt-get install pkg-mozilla-archive-keyring
+##
+##gpg --check-sigs --fingerprint --keyring /etc/apt/trusted.gpg.d/pkg-mozilla-archive-keyring.gpg --keyring /usr/share/keyrings/debian-keyring.gpg pkg-mozilla-maintainers
+##
+#
+##gpg --keyserver keys.gnupg.net --recv-key 06C4AE2A   
+##gpg -a --export 06C4AE2A | apt-key add - 
